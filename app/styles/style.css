@@ -1,12 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-image: url("../assets/bg-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
-  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 70px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 10%;
+  text-align: center;
+  color: #fff;
+}
+
+.login-form {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+}
+
+.input-field {
+  font-family: "Poppins", sans-serif;
+  width: 50%;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: grayscale(0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  transition: background-color 0.3s, box-shadow 0.3s, filter 0.3s;
+  text-align: center;
+}
+
+.input-field::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.login-button {
+  padding: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 25%;
+  cursor: pointer;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona uma pequena sombra */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Transição suave de cor de fundo e sombra */
+}
+
+.login-button:hover {
+  background-color: #003cff; /* Cor mais escura no hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Aumenta a sombra no hover */
+}
+
+.register {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.register-link {
+  color: #fff500;
+  text-decoration: none;
 }
