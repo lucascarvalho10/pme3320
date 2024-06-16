@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dados Coletados</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <div class="pg-2-body">
+      <div class="data-container">
+        <h1 class="title-dados">Dados Coletados</h1>
+        <h2 class="subtitle-dados">Frequência e Dados</h2>
+        <table class="table">
+          <thead class="table-head">
+            <tr>
+              <th class="table-header">Dados</th>
+              <th class="table-header">Valor</th>
+              <th class="table-header">Alerta</th>
+            </tr>
+          </thead>
+          <tbody class="table-body">
+            <tr>
+              <td class="table-content">Umidade</td>
+              <td id="umidade" class="table-content">40%</td>
+              <td id="umidade-alerta" class="table-content">
+                <span class="icon icon-umi"></span>Aceitável
+              </td>
+            </tr>
+
+            <tr>
+              <td class="table-content">Temperatura</td>
+              <td id="temperatura" class="table-content">20°C</td>
+              <td id="temperatura-alerta" class="table-content">
+                <span class="icon icon-temp"></span>Aceitável
+              </td>
+            </tr>
+
+            <tr>
+              <td class="table-content">Umidade do Solo</td>
+              <td id="umidade-solo" class="table-content">10%</td>
+              <td id="umidade-solo-alerta" class="table-content">
+                <span class="icon icon-umi-sol"></span>Cuidado
+              </td>
+            </tr>
+
+            <tr>
+              <td class="table-content">pH do Solo</td>
+              <td id="ph-solo" class="table-content">7.8</td>
+              <td id="ph-solo-alerta" class="table-content">
+                <span class="icon icon-ph"></span>Perigo
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>

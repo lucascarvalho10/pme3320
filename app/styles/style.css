@@ -39,6 +39,20 @@ a {
   color: #fff;
 }
 
+.title-dados {
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 10%;
+  color: #5c8dd6;
+}
+
+.subtitle-dados {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 10%;
+  color: #8f97a3;
+}
+
 .login-form {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -96,3 +110,126 @@ a {
   color: #fff500;
   text-decoration: none;
 }
+
+.pg-2-body {
+  background-color: #e0e4eb; /* Neutral/100 do Figma */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+}
+/* */
+.data-container {
+  padding: 20px;
+  width: 70%;
+}
+
+.main-title {
+  color: #5c8dd6;
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #718096;
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.table-head .table-header {
+  border-bottom: 0.5px solid #e0e4eb;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+.table-body .table-content {
+  padding-top: 10px;
+}
+
+.table-body .table-cell {
+  padding: 12px;
+  text-align: left;
+}
+
+.alerta-aceitavel {
+  color: green;
+}
+
+.alerta-cuidado {
+  color: orange;
+}
+
+.alerta-perigo {
+  color: red;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #e53e3e;
+}
+
+.checkbox {
+  transform: scale(1.2);
+}
+
+.table {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  align-items: left;
+  margin-top: 40px;
+  color: #8f97a3;
+}
+
+/* .table-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+} */
+
+.icon {
+  margin-right: 4px;
+  display: inline-block;
+  width: 9px; /* Ajuste o tamanho do ícone conforme necessário */
+  height: 9px; /* Ajuste o tamanho do ícone conforme necessário */
+  margin-left: 8px;
+  background-color: currentColor;
+  -webkit-mask: url("../assets/circles.svg") no-repeat center;
+  mask: url("../assets/circles.svg") no-repeat center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.icon-umi {
+  color: #66cca7; /* Ajuste a cor do ícone conforme necessário */
+}
+
+.icon-temp {
+  color: #66cca7; /* Ajuste a cor do ícone conforme necessário */
+}
+
+.icon-umi-sol {
+  color: #d6b65c; /* Ajuste a cor do ícone conforme necessário */
+}
+
+.icon-ph {
+  color: #de5462; /* Ajuste a cor do ícone conforme necessário */
+}
+
+/* red: DE5462
+yelllow: D6B65C
+green: 66CCA7 */
